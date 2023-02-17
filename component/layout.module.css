@@ -1,0 +1,20 @@
+
+.background{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: -3;
+}
+
+.p{
+    font-weight: 600;
+    margin: 0;
+}
+
+.h{
+    font-weight: 800;
+}
+
+.span{
+    font-weight: 300;
+}

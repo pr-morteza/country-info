@@ -1,0 +1,53 @@
+
+
+.font{
+  
+  
+  font-size: 9rem;
+}
+
+.para1{
+  word-spacing: 1rem;
+}
+
+
+.formcontrol::placeholder{
+  color: rgb(255, 255, 255);
+  
+}
+
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+
+
+.circle{
+  width: 200px;
+  height: 200px;
+}
+
+.images{
+  min-height: 60vh;
+  position: relative;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+  .font{
+    font-size: 5rem;
+  }
+  
+}
+
+.displayable{
+  display: none;
+  
+}
+
