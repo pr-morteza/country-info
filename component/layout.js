@@ -13,7 +13,7 @@ export default function Layout({name, population, region, flag, capital}){
     <Col lg={3} md={4} sm={6} className={`p-4 px-md-4 px-5`}>
       <Link href={`/country/${name}`} className="text-decoration-none text-dark">
         <Card className={`shadow  border-0 ${!mode && 'bg-secondary'}`}>
-          <Card.Img variant="top" src={flag} style={{height:'23vh',objectFit:'cover'}} />
+          <Card.Img variant="top" src={flag} style={{height:'10rem',objectFit:'cover'}} />
           <Card.Body className={`p-4 pe-0 ${mode ? 'text-dark' : 'text-light'}`}>
             <Card.Title as='h5' className={style.h}>{name}</Card.Title>
             <Card.Text as="div">
