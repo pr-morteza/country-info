@@ -67,7 +67,7 @@ export default function Home({DATA}) {
         <div className='d-sm-flex justify-content-between my-4'>
           <Col md={3} sm={4}>
             <Form >
-              <Form.Control size='lg' type="text" className={`border-0 shadow ${!mode && `bg-secondary text-light ${styles.formcontrol}`}`} placeholder="Search By Country" onChange={handleChange} value={searchInput} />
+              <Form.Control size='lg' type="search" className={`border-0 shadow ${!mode && `bg-secondary text-light ${styles.formcontrol}`}`} placeholder="Search By Country" onChange={handleChange} value={searchInput} />
             </Form>
           </Col>    
           <DropdownButton variant={mode ? 'flat' : 'secondary'} className='d-inline-block mt-sm-0 mt-3 shadow rounded' size="lg" title={reg}>
